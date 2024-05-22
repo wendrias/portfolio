@@ -58,21 +58,3 @@ function ProjectCard({
 }
 
 export default ProjectCard;
-
-// function ProjectCard({ title, picture, description, tech }: ProjectCardProps) {
-//   return (
-//     <div className="project-card">
-//       <div className="project-image-div">
-//         <img src={picture} />
-//       </div>
-//       <div className="project-card-text">
-//         <h3>{title}</h3>
-//         <p>{description}</p>
-//         <ul className="project-card-tech-list">
-//           {tech.length > 0 &&
-//             tech.map((t) => <li className="project-tech-item">{t}</li>)}
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// }
