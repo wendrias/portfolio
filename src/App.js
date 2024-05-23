@@ -11,17 +11,17 @@ function App() {
   let nav = "";
 
   switch (window.location.pathname) {
-    case "/":
+    case "/portfolio/":
       Page = Home;
       nav = "light";
       logo = "light";
       break;
-    case "/about":
+    case "/portfolio/about":
       Page = About;
       nav = "light";
       logo = "dark";
       break;
-    case "/projects":
+    case "/portfolio/projects":
       Page = Projects;
       nav = "light";
       logo = "light";
@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar navTheme={nav} logoTheme={logo} /> <Page />
+      <Navbar navTheme={nav} logoTheme={logo} /> {Page ? <Page /> : null}
     </div>
   );
 }
