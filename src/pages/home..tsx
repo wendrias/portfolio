@@ -17,8 +17,8 @@ function Home() {
           <BlinkingCursor />{" "}
         </h3>
         <div className="button-container">
-          <Button text="More about me  >" to="/about" theme="light" />
-          <Button text="See my work >" to="/projects" theme="light" />
+          <Button text="More about me  >" to="/portfolio/about" theme="light" />
+          <Button text="See my work >" to="/portfolio/projects" theme="light" />
         </div>
       </div>
       <div className="page-overlay"></div>

@@ -14,17 +14,17 @@ function Navbar({ logoTheme, navTheme }: NavProps) {
 
       <ul className={"nav-areas nav-" + navTheme}>
         <li>
-          <a className="nav-link" href="/">
+          <a className="nav-link" href="/portfolio/">
             01. Home
           </a>
         </li>
         <li>
-          <a className="nav-link" href="/projects">
+          <a className="nav-link" href="/portfolio/projects">
             02. Projects
           </a>
         </li>
         <li>
-          <a className="nav-link" href="/about">
+          <a className="nav-link" href="/portfolio/about">
             03. About
           </a>
         </li>
