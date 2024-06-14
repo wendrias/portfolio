@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 interface NavProps {
   logoTheme: string;
   navTheme: string;
+  bgClassName?: string;
 }
 
-function Navbar({ logoTheme, navTheme }: NavProps) {
+function Navbar({ logoTheme, navTheme, bgClassName }: NavProps) {
   return (
-    <nav className={"nav"}>
+    <nav className={`nav`}>
       <Link className="nav-heading" to="/portfolio/">
-        <img src={"./img/logo-" + logoTheme + ".png"} />
+        <img src={"./img/logo-" + logoTheme + ".png"} className={bgClassName}/>
       </Link>
 
       <ul className={"nav-areas nav-" + navTheme}>

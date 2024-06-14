@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BlinkingCursor from "../components/BlinkingCursor";
 import "./home.css";
 import Footer from "../components/Footer";
@@ -17,8 +18,12 @@ function Home() {
           <BlinkingCursor />{" "}
         </h3>
         <div className="button-container">
-          <Button text="More about me  >" to="/portfolio/about" theme="light" />
-          <Button text="See my work >" to="/portfolio/projects" theme="light" />
+          <Link to="/portfolio/about">
+              <Button text="More about me  >" to="/portfolio/about" theme="light" />
+          </Link>
+          <Link to="/portfolio/projects" >
+              <Button text="See my work >" to="/portfolio/projects" theme="light" />
+          </Link>
         </div>
       </div>
       <div className="page-overlay"></div>

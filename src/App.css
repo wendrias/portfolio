@@ -89,6 +89,10 @@ footer p {
     transition: opacity 300ms;
 }
 
+.not {
+    background: none !important;
+}
+
 @media (max-width: 1000px) {
     .nav img {
         max-height: 200px;
