@@ -68,6 +68,10 @@ body {
     justify-content: space-between;
 }
 
+.button-container a {
+    text-decoration: none !important;
+}
+
 
 /* .home-container h3 {
   margin-bottom: 50px;
