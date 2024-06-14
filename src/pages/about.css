@@ -1,75 +1,122 @@
-#about-container {
-  height: 85vh;
-  display: flex;
-  width: 80vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-top: 10vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
-.half-overlay {
-  height: 100vh;
-  top: 0;
-  width: 76vw;
-  position: absolute;
-  right: 0;
-  background-color: rgb(20, 20, 20);
-  z-index: 0;
-}
-
-#about-card {
-  width: 70vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1;
-}
-
-#profile-image {
-  width: 20vw;
-  height: 20vw;
-  background-image: url("/public/img/me.jpg");
-  background-repeat: no-repeat, repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 50%;
-}
-
-#about-text {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  /* height: 55vh; */
-  justify-content: space-between;
-}
-
-#about-text h1 {
-  font-size: 8vh;
-}
-
-ul {
-  padding-left: 0;
-}
-
-.social-icon-list {
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.social-icon-list a:link,
-.social-icon-list a:visited,
-.social-icon-list a:active {
-  color: white;
-  text-decoration: none;
-}
-
-.social-icon-list a:hover {
-  color: lightcyan;
-}
+    #about-container {
+        height: 85vh;
+        display: flex;
+        width: 80vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 10vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    .half-overlay {
+        height: 100vh;
+        top: 0;
+        width: 76vw;
+        position: absolute;
+        right: 0;
+        background-color: rgb(20, 20, 20);
+        z-index: 0;
+    }
+    
+    #about-card {
+        width: 70vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1;
+    }
+    
+    #profile-image {
+        width: 20vw;
+        height: 20vw;
+        background-image: url("/public/img/me.jpg");
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    
+    #about-text {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        /* height: 55vh; */
+        justify-content: space-between;
+    }
+    
+    #about-text h1 {
+        font-size: 8vh;
+    }
+    
+    #about-text p {
+        font-size: 2, 5vh;
+    }
+    
+    ul {
+        padding-left: 0;
+    }
+    
+    .social-icon-list {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .social-icon-list a:link,
+    .social-icon-list a:visited,
+    .social-icon-list a:active {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .social-icon-list a:hover {
+        color: lightcyan;
+    }
+    
+    @media (max-width: 980px) {
+        #about-text {
+            width: 100%;
+            align-items: center;
+        }
+        #about-card {
+            flex-direction: column;
+            width: 80vw;
+        }
+        .half-overlay {
+            width: 100vw;
+            /* -webkit-clip-path: ppolygon(100% 0, 100% 100%, 0 100%, 0 31%, 38% 0); */
+        }
+        /* #about-text h1 {
+            font-size: 6vw;
+        } */
+        /* #about-text p {
+            font-size: 3vw;
+        } */
+        #about-text h1 {
+            font-size: 5vh;
+            margin: 2vh;
+        }
+        #about-container {
+            padding-top: 20vh;
+            justify-content: normal;
+            height: 80vh;
+        }
+        .nav img {
+            background: white !important;
+        }
+    }
+    
+    @media (max-width: 800px) {
+        #about-text p {
+            font-size: 2vh;
+        }
+        #profile-image {
+            width: 50vw;
+            height: 50vw;
+        }
+    }

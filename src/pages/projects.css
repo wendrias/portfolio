@@ -1,26 +1,39 @@
 #projects-container {
-  width: 80vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-top: 15vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color: rgb(22, 22, 22);
+    width: 80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 15vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(22, 22, 22);
 }
 
 #projects-container p {
-  margin-top: 5vh;
+    margin-top: 5vh;
 }
 
 #project-cards-container {
-  margin-top: 10vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+@media (max-width: 880px) {
+    #project-cards-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #project-cards-container {
+        justify-content: center;
+    }
+}
+
 
 /* .proj-carousel {
   display: flex;
