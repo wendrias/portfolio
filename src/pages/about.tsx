@@ -32,7 +32,7 @@ function About() {
           </p>
           <div className="social-links">
             <ul className="social-icon-list">
-              <a href="https://www.linkedin.com/in/wastena-endrias-479391148/">
+              <a href="https://www.linkedin.com/in/wastenaendrias/">
                 <LinkedInIcon className="linkedin-icon" />
               </a>
               <a href="https://github.com/wendrias/">

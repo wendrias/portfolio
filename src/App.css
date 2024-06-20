@@ -106,4 +106,10 @@ footer p {
     .nav ul {
         flex-direction: column;
     }
+    nav {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        justify-content: space-evenly;
+    }
 }

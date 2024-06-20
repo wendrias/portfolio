@@ -8,6 +8,7 @@
     align-items: center;
     color: white;
     background-color: rgb(22, 22, 22);
+    overflow: hidden;
 }
 
 #projects-container p {
@@ -31,6 +32,9 @@
 @media (max-width: 600px) {
     #project-cards-container {
         justify-content: center;
+    }
+    #project-cards-text {
+        padding: 0 7vw;
     }
 }
 

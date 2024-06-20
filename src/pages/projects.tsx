@@ -13,49 +13,49 @@ function Projects() {
         <ProjectCard
           title="PixelWorld Mini-Game"
           description="A Pokemon-inspired mini game."
-          tech={["HTML/CSS", "JavaScript", "Python"]}
+          tech={["JavaScript", "Python", "HTML/CSS"]}
           picture="./img/pixelworld.png"
           link="https://wendrias.github.io/pixelworld/"
         />
         <ProjectCard
           title="Prince George's County Schools Air Quality Tool"
           description="An air quality sensor map and dashboard created for a local education center's environmental curriculum."
-          tech={["HTML/CSS", "JavaScript", "React", "NodeJS", "REST API"]}
+          tech={["JavaScript", "React", "NodeJS", "REST API", "HTML/CSS"]}
           picture="./img/schmidt/map.png"
           link="https://schmidt-center-dashboard.netlify.app/"
         />
         <ProjectCard
           title="Pic2Playlist (Beta)"
           description="A tool that takes user-inputted image and creates a Spotify playlist based on data from Google Cloud Vision and Clarifai image processing AIs."
-          tech={["HTML/CSS", "JavaScript", "NodeJS", "REST API"]}
+          tech={["JavaScript", "NodeJS", "REST API", "HTML/CSS"]}
           picture="./img/p2p.png"
           link="/"
         />
         <ProjectCard
           title="CSS Toaster"
           description="A fun exercise in UI design and CSS animation."
-          tech={["HTML/CSS", "JavaScript"]}
+          tech={["JavaScript", "HTML/CSS"]}
           picture="./img/toaster.png"
-          link="https://codepen.io/wendrias/pen/RwMYxZX"
+          link="https://codepen.io/wendrias/full/RwMYxZX"
         />
         <ProjectCard
           title="Easy GPA Calculator"
           description="Quick, no-hassle grade average calculation--no converting needed. Parameters can be entered as letters, percentages, or a mix of both."
-          tech={["HTML/CSS", "Bootstrap", "JavaScript"]}
+          tech={["Bootstrap", "JavaScript", "HTML/CSS"]}
           picture="./img/gpa.png"
-          link="https://codepen.io/wendrias/pen/ZEJwWzJ"
+          link="https://codepen.io/wendrias/full/ZEJwWzJ"
         />
         <ProjectCard
           title="Artist Porfolio Site"
           description="An artist portfolio site created for a freelance client. Includes custom carousel, about page, gallery of work, and contact page. Anonymized to protect privacy."
-          tech={["HTML/CSS", "JavaScript", "PHP"]}
+          tech={["JavaScript", "PHP", "HTML/CSS"]}
           picture="./img/portfolio/1.png"
           link="/"
         />
         <ProjectCard
           title="Slide-Up Music Player Design"
           description="Prototype of music player that slides up when toggled."
-          tech={["HTML/CSS", "JavaScript"]}
+          tech={["JavaScript", "HTML/CSS"]}
           picture="./img/music.png"
           link="/"
         />
